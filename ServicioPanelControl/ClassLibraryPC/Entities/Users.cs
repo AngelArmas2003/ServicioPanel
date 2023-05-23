@@ -10,13 +10,11 @@ namespace ClassLibraryPC.Entities
 {
     public class Users
     {
-
         public string id { get; set; }
         public string Nombre { get; set; }
         public string Usuario { get; set; }
 
         public string Contraseña { get; set; }
-
 
         public bool Activo { get; set; }
 
