@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicioPanelControl", "ServicioPanelControl\ServicioPanelControl.csproj", "{E0BE1B4A-9C35-438F-8DE9-7E7676A3371B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryPC", "ClassLibraryPC\ClassLibraryPC.csproj", "{CD5AFCAA-C707-4B38-AEC1-C927DF556F95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0BE1B4A-9C35-438F-8DE9-7E7676A3371B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0BE1B4A-9C35-438F-8DE9-7E7676A3371B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0BE1B4A-9C35-438F-8DE9-7E7676A3371B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0BE1B4A-9C35-438F-8DE9-7E7676A3371B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5AFCAA-C707-4B38-AEC1-C927DF556F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5AFCAA-C707-4B38-AEC1-C927DF556F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5AFCAA-C707-4B38-AEC1-C927DF556F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5AFCAA-C707-4B38-AEC1-C927DF556F95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9070FE37-5AC4-4F75-9869-1D6BC0539408}
+	EndGlobalSection
+EndGlobal

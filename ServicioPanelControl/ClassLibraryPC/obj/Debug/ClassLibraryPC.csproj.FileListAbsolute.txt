@@ -1,0 +1,8 @@
+C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\bin\Debug\ClassLibraryPC.dll
+C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\bin\Debug\ClassLibraryPC.pdb
+C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\bin\Debug\Newtonsoft.Json.dll
+C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\obj\Debug\ClassLibraryPC.csproj.CoreCompileInputs.cache
+C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\obj\Debug\ClassLibraryPC.csproj.CopyComplete
+C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\obj\Debug\ClassLibraryPC.dll
+C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\obj\Debug\ClassLibraryPC.pdb
+C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\obj\Debug\ClassLibraryPC.csproj.AssemblyReference.cache

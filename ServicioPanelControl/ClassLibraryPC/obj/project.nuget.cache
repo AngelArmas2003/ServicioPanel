@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jgvveI7h9nbFDGNjQvDCt2YZ4UjLHF5vT+hEq3sXgdbMJrMr1hkEOtN7bQ1g+e0q3bUS/jG6LRoX9TIXs1fqKg==",
+  "success": true,
+  "projectFilePath": "C:\\Proyectos_2022\\Cobos_Corsa_Walmart\\Servicio_ControlPanel\\ServicioPanelControl\\ClassLibraryPC\\ClassLibraryPC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\angel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
