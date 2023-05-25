@@ -228,7 +228,7 @@ namespace ClassLibraryPC.Entities
 
 
 
-        public List<Users> CatalogoUsuario()
+        public List<Users> CatalogoUsuario(Users entUser)
         {
             List<Users> Listausers = new List<Users>();
 
@@ -238,8 +238,10 @@ namespace ClassLibraryPC.Entities
             using (SqlConnection conn = new SqlConnection(oconexion.conexion.ConnectionString))
             {
                 SqlCommand cmd = new SqlCommand("Sp_Catalogo_Usuarios", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@Nombre", SqlDbType.VarChar,200).Value = entUser.Nombre;
+                cmd.Parameters.Add("@Usuario", SqlDbType.VarChar, 100).Value = entUser.Usuario;
 
+                cmd.CommandType = CommandType.StoredProcedure;
 
                 try
                 {

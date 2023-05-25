@@ -57,14 +57,14 @@ namespace ServicioPanelControl
 
 
         [WebMethod]
-        public List<Users> CatalogoUsuario()
+        public List<Users> CatalogoUsuario(Users entUser)
         {
 
             List<Users> oCatalogousuario = new List<Users>();
 
 
             UsersM oUser = new UsersM();
-           oCatalogousuario = oUser.CatalogoUsuario();
+           oCatalogousuario = oUser.CatalogoUsuario(entUser);
 
            
 

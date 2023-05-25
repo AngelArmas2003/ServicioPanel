@@ -46,7 +46,7 @@ namespace ClassLibraryPC.Business
             return reg;
         }
 
-        public List<Users> CatalogoUsuario()
+        public List<Users> CatalogoUsuario(Users entUser)
 
         {
          
@@ -55,7 +55,7 @@ namespace ClassLibraryPC.Business
 
             Users ousu = new Users();
 
-            oUsurs = ousu.CatalogoUsuario();
+            oUsurs = ousu.CatalogoUsuario(entUser);
 
 
           //Catalogousuario =  JsonConvert.SerializeObject(oUsurs);
