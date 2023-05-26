@@ -11,7 +11,7 @@ namespace ClassLibraryPC.Business
  public   class EmpresasM
     {
 
-        public List<Empresas> CatalogoEmpresa()
+        public List<Empresas> CatalogoEmpresa(Empresas entEmp)
 
         {
 
@@ -20,7 +20,7 @@ namespace ClassLibraryPC.Business
 
             Empresas oEmp = new Empresas();
 
-            oEmpresas = oEmp.CatalogoEmpresa();
+            oEmpresas = oEmp.CatalogoEmpresa(entEmp);
 
 
             //Catalogousuario =  JsonConvert.SerializeObject(oUsurs);

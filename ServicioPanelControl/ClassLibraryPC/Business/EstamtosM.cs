@@ -46,7 +46,7 @@ namespace ClassLibraryPC.Business
             return reg;
         }
 
-        public List<Estamtos> CatalogoEstamtos()
+        public List<Estamtos> CatalogoEstamtos(Estamtos entEst)
 
         {
 
@@ -55,7 +55,7 @@ namespace ClassLibraryPC.Business
 
             Estamtos ousu = new Estamtos();
 
-            oEstamtos = ousu.CatalogoEstamtos();
+            oEstamtos = ousu.CatalogoEstamtos(entEst);
 
 
             //Catalogousuario =  JsonConvert.SerializeObject(oUsurs);

@@ -19,7 +19,7 @@ namespace ClassLibraryPC.Entities
 
 
 
-        public List<Combos> CatalogoCombos()
+        public List<Combos> CatalogoCombos(Combos entC)
         {   
             List<Combos> ListaCombos = new List<Combos>();
 
@@ -29,6 +29,8 @@ namespace ClassLibraryPC.Entities
             using (SqlConnection conn = new SqlConnection(oconexion.conexion.ConnectionString))
             {
                 SqlCommand cmd = new SqlCommand("Sp_Catalogo_Combos", conn);
+                cmd.Parameters.Add("@Combo", SqlDbType.VarChar, 10).Value = entC.Combo;
+                cmd.Parameters.Add("@DescripcionCombo", SqlDbType.VarChar, 100).Value = entC.DescripcionCombo;
                 cmd.CommandType = CommandType.StoredProcedure;
 
 

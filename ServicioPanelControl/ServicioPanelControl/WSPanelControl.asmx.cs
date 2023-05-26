@@ -103,14 +103,14 @@ namespace ServicioPanelControl
 
         [WebMethod]
 
-        public List<Estamtos> CatalogEstamtos()
+        public List<Estamtos> CatalogEstamtos(Estamtos entEst)
         {
 
             List<Estamtos> oCatalogousuario = new List<Estamtos>(); 
 
 
             EstamtosM ocata = new EstamtosM();
-            oCatalogousuario = ocata.CatalogoEstamtos();
+            oCatalogousuario = ocata.CatalogoEstamtos(entEst);
 
 
 
@@ -133,14 +133,14 @@ namespace ServicioPanelControl
 
         }
         [WebMethod]
-        public List<Empresas> CatalogEmpresa()
+        public List<Empresas> CatalogEmpresa(Empresas entEmp)
         {
 
             List<Empresas> oCatalogEmpresas = new List<Empresas>();
 
 
             EmpresasM oemp = new EmpresasM();
-            oCatalogEmpresas = oemp.CatalogoEmpresa();
+            oCatalogEmpresas = oemp.CatalogoEmpresa(entEmp);
 
 
 
@@ -203,14 +203,14 @@ namespace ServicioPanelControl
 
 
         [WebMethod]
-        public List<Determinantes> DeterminantesActivas()
+        public List<Determinantes> DeterminantesActivas(Determinantes entDet)
         {
 
             List<Determinantes> oListdeters = new List<Determinantes>();
 
 
             DeterminantesM odet = new DeterminantesM();
-            oListdeters = odet.ListaDeterminantesActivas();
+            oListdeters = odet.ListaDeterminantesActivas(entDet);
 
 
 
@@ -264,14 +264,14 @@ namespace ServicioPanelControl
         }
 
         [WebMethod]
-        public List<Combos> CatalogoCombos()
+        public List<Combos> CatalogoCombos(Combos entC)
         {
 
             List<Combos> oListdeters = new List<Combos>();
 
 
             CombosM ocombos = new CombosM();
-            oListdeters = ocombos.CatalogoCombo();
+            oListdeters = ocombos.CatalogoCombo(entC);
 
 
 

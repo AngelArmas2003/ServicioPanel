@@ -23,7 +23,7 @@ namespace ClassLibraryPC.Entities
         public bool Activo { get; set; }
 
 
-        public List<Determinantes> DeterminantesActivas()
+        public List<Determinantes> DeterminantesActivas(Determinantes entDet)
         {
             List<Determinantes> Listadeter = new List<Determinantes>();
 
@@ -33,6 +33,10 @@ namespace ClassLibraryPC.Entities
             using (SqlConnection conn = new SqlConnection(oconexion.conexion.ConnectionString))
             {
                 SqlCommand cmd = new SqlCommand("Sp_Lista_Plaza_Determinantes", conn);
+                cmd.Parameters.Add("@CveEmpresa", SqlDbType.VarChar, 4).Value = entDet.CveEmpresa;
+                cmd.Parameters.Add("@Empresa", SqlDbType.VarChar, 300).Value = entDet.Nombre_Empresa;
+                cmd.Parameters.Add("@CveEstamto", SqlDbType.VarChar, 4).Value = entDet.CveEstamto;
+                cmd.Parameters.Add("@Estacionamiento", SqlDbType.VarChar, 300).Value = entDet.Estacionamiento;
                 cmd.CommandType = CommandType.StoredProcedure;
 
 

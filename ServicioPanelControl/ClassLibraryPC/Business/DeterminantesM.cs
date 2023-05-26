@@ -11,7 +11,7 @@ namespace ClassLibraryPC.Business
  public   class DeterminantesM
     {
 
-        public List<Determinantes> ListaDeterminantesActivas()
+        public List<Determinantes> ListaDeterminantesActivas(Determinantes entDet)
 
         {
 
@@ -20,7 +20,7 @@ namespace ClassLibraryPC.Business
 
             Determinantes odetermi = new Determinantes();
 
-            ODete = odetermi.DeterminantesActivas();
+            ODete = odetermi.DeterminantesActivas(entDet);
 
 
             //Catalogousuario =  JsonConvert.SerializeObject(oUsurs);

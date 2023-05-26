@@ -19,7 +19,7 @@ namespace ClassLibraryPC.Entities
 
 
 
-        public List<Empresas> CatalogoEmpresa()
+        public List<Empresas> CatalogoEmpresa(Empresas entEmp)
         {
             List<Empresas> ListaEmpresas = new List<Empresas>();
 
@@ -29,9 +29,9 @@ namespace ClassLibraryPC.Entities
             using (SqlConnection conn = new SqlConnection(oconexion.conexion.ConnectionString))
             {
                 SqlCommand cmd = new SqlCommand("Sp_CatalogoEmpresas", conn);
+                cmd.Parameters.Add("@Nombre", SqlDbType.VarChar, 300).Value = entEmp.NombreEmpresa;
+                cmd.Parameters.Add("@RFC", SqlDbType.VarChar, 100).Value = entEmp.Rfc;
                 cmd.CommandType = CommandType.StoredProcedure;
-
-
                 try
                 {
                     conn.Open();

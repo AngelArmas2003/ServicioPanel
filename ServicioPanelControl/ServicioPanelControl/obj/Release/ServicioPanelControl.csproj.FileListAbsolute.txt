@@ -116,7 +116,6 @@ C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ServicioPanelControl\bin\Class
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ServicioPanelControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ServicioPanelControl\bin\Newtonsoft.Json.dll
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ServicioPanelControl\bin\ClassLibraryPC.pdb
-C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ServicioPanelControl\bin\Newtonsoft.Json.xml
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ServicioPanelControl\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ServicioPanelControl\obj\Release\ServicioPanelControl.csproj.AssemblyReference.cache
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ServicioPanelControl\obj\Release\ServicioPanelControl.csproj.CoreCompileInputs.cache

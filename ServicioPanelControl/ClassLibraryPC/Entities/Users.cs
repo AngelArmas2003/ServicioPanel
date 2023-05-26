@@ -240,6 +240,7 @@ namespace ClassLibraryPC.Entities
                 SqlCommand cmd = new SqlCommand("Sp_Catalogo_Usuarios", conn);
                 cmd.Parameters.Add("@Nombre", SqlDbType.VarChar,200).Value = entUser.Nombre;
                 cmd.Parameters.Add("@Usuario", SqlDbType.VarChar, 100).Value = entUser.Usuario;
+                cmd.Parameters.Add("@Contrasena", SqlDbType.VarChar, 100).Value = entUser.Contraseña;
 
                 cmd.CommandType = CommandType.StoredProcedure;
 

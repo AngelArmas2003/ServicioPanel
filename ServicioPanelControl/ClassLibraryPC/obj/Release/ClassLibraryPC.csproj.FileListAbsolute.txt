@@ -6,7 +6,6 @@ C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl
 C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.csproj.CopyComplete
 C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.dll
 C:\Proyectos_2022\Cobos_Corsa_Walmart\Servicio_ControlPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.pdb
-C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.csproj.AssemblyReference.cache
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.csproj.CoreCompileInputs.cache
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.dll
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.pdb
@@ -14,3 +13,4 @@ C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\bin\Release\Cla
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\bin\Release\ClassLibraryPC.pdb
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\bin\Release\Newtonsoft.Json.dll
 C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.csproj.CopyComplete
+C:\Tr\Personal\ServicioPanel\ServicioPanelControl\ClassLibraryPC\obj\Release\ClassLibraryPC.csproj.AssemblyReference.cache

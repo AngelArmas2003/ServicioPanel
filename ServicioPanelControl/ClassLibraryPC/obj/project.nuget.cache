@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6nj7sru+pOycfwXYzg6Q4LmMJe1nC1o5jm5W8qQpZk/CPM9ll+c3nabx531k9nTvMB2lfQqjh83UN8RXV+Phew==",
+  "dgSpecHash": "o5ZOrwnm292AmJ6frsiOhZtFhpqxMS9JEUOWO/P6YlFr5hYpyte+PH2/MRFZkhlcJEEY1W4IKnHEeQDb5hoRZA==",
   "success": true,
   "projectFilePath": "C:\\Tr\\Personal\\ServicioPanel\\ServicioPanelControl\\ClassLibraryPC\\ClassLibraryPC.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vn0xv64\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\vn0xv64\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -47,7 +47,7 @@ namespace ClassLibraryPC.Business
         }
 
 
-        public List<Combos> CatalogoCombo()
+        public List<Combos> CatalogoCombo(Combos entC)
 
         {
 
@@ -56,7 +56,7 @@ namespace ClassLibraryPC.Business
 
             Combos ocom = new Combos();
 
-            ocombo = ocom.CatalogoCombos();
+            ocombo = ocom.CatalogoCombos(entC);
 
 
             //Catalogousuario =  JsonConvert.SerializeObject(oUsurs);

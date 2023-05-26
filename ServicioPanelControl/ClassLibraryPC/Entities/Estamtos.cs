@@ -103,7 +103,7 @@ namespace ClassLibraryPC.Entities
       
 
 
-        public List<Estamtos> CatalogoEstamtos()
+        public List<Estamtos> CatalogoEstamtos(Estamtos entEst)
         {
             List<Estamtos> ListaEstamtos = new List<Estamtos>();
 
@@ -113,6 +113,8 @@ namespace ClassLibraryPC.Entities
             using (SqlConnection conn = new SqlConnection(oconexion.conexion.ConnectionString))
             {
                 SqlCommand cmd = new SqlCommand("Sp_Catalogo_Estamtos", conn);
+                cmd.Parameters.Add("@NombreEsta", SqlDbType.VarChar, 10).Value = entEst.NombreEstamto;
+                cmd.Parameters.Add("@NombreEmp", SqlDbType.VarChar, 100).Value = entEst.NombreEmpresa;
                 cmd.CommandType = CommandType.StoredProcedure;
 
 
