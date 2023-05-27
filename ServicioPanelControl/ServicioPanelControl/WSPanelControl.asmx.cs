@@ -281,19 +281,28 @@ namespace ServicioPanelControl
 
 
         [WebMethod]
-        public List<ComboDeterminantes> CatalogoCombosdeterminantes(string combo)
+        public List<ComboDeterminantes> CatalogoCombosdeterminantes(ComboDeterminantes ent)
         {
 
             List<ComboDeterminantes> oListdeters = new List<ComboDeterminantes>();
 
 
             ComboDeterminantesM ocombos = new ComboDeterminantesM();
-            oListdeters = ocombos.CatalogoComboDeterminantes(combo);
+            oListdeters = ocombos.CatalogoComboDeterminantes(ent);
 
 
 
             return oListdeters;
 
+        }
+
+        [WebMethod]
+        public int ComboDeterminanteReg_Act(string obj)
+        {
+            int registro = 0;
+            ComboDeterminantesM oComboD = new ComboDeterminantesM();
+            registro = oComboD.ComboDeterminanteReg_Act(obj);
+            return registro;
         }
 
 

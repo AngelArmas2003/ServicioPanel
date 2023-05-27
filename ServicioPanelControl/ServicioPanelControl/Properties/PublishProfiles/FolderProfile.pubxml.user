@@ -5,14 +5,14 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>C:\Publicados\Personal\ServicioPanel\</_PublishTargetUrl>
-    <History>True|2023-05-26T03:44:26.0805247Z;True|2023-05-25T20:24:55.4061303-06:00;True|2023-05-25T19:24:15.0384404-06:00;True|2023-05-25T13:25:03.3852153-06:00;True|2023-05-25T13:20:47.8058577-06:00;True|2023-05-25T10:06:32.9618983-06:00;True|2023-05-25T09:34:39.4966261-06:00;False|2023-05-25T09:34:06.1621714-06:00;False|2023-05-25T09:33:28.4867702-06:00;True|2023-05-25T06:33:32.2076459-06:00;True|2023-05-24T21:01:44.6397304-06:00;True|2023-05-24T20:52:08.0315552-06:00;True|2023-05-24T20:50:37.6961038-06:00;True|2023-05-23T05:38:59.8155011-06:00;True|2023-05-22T20:46:23.0438862-06:00;True|2022-07-10T10:23:17.9185913-05:00;False|2022-07-10T10:23:02.8719939-05:00;True|2022-06-05T15:42:19.7259890-05:00;True|2022-05-25T00:03:55.5707502-05:00;True|2022-05-24T21:04:38.2620455-05:00;True|2022-05-21T23:52:31.1568690-05:00;True|2022-05-21T23:52:14.7612516-05:00;True|2022-05-21T09:05:00.2505684-05:00;</History>
+    <History>True|2023-05-27T05:22:33.5554284Z;True|2023-05-26T22:03:18.0868652-06:00;True|2023-05-26T21:44:31.3658510-06:00;True|2023-05-25T21:44:26.0805247-06:00;True|2023-05-25T20:24:55.4061303-06:00;True|2023-05-25T19:24:15.0384404-06:00;True|2023-05-25T13:25:03.3852153-06:00;True|2023-05-25T13:20:47.8058577-06:00;True|2023-05-25T10:06:32.9618983-06:00;True|2023-05-25T09:34:39.4966261-06:00;False|2023-05-25T09:34:06.1621714-06:00;False|2023-05-25T09:33:28.4867702-06:00;True|2023-05-25T06:33:32.2076459-06:00;True|2023-05-24T21:01:44.6397304-06:00;True|2023-05-24T20:52:08.0315552-06:00;True|2023-05-24T20:50:37.6961038-06:00;True|2023-05-23T05:38:59.8155011-06:00;True|2023-05-22T20:46:23.0438862-06:00;True|2022-07-10T10:23:17.9185913-05:00;False|2022-07-10T10:23:02.8719939-05:00;True|2022-06-05T15:42:19.7259890-05:00;True|2022-05-25T00:03:55.5707502-05:00;True|2022-05-24T21:04:38.2620455-05:00;True|2022-05-21T23:52:31.1568690-05:00;True|2022-05-21T23:52:14.7612516-05:00;True|2022-05-21T09:05:00.2505684-05:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/ClassLibraryPC.dll">
-      <publishTime>05/25/2023 21:44:19</publishTime>
+      <publishTime>05/26/2023 23:22:28</publishTime>
     </File>
     <File Include="bin/ClassLibraryPC.pdb">
-      <publishTime>05/25/2023 21:44:19</publishTime>
+      <publishTime>05/26/2023 23:22:28</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/23/2023 13:00:13</publishTime>
@@ -168,13 +168,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>05/23/2023 13:00:14</publishTime>
     </File>
     <File Include="bin/ServicioPanelControl.dll">
-      <publishTime>05/25/2023 21:44:20</publishTime>
+      <publishTime>05/26/2023 23:22:29</publishTime>
     </File>
     <File Include="bin/ServicioPanelControl.pdb">
-      <publishTime>05/25/2023 21:44:20</publishTime>
+      <publishTime>05/26/2023 23:22:29</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>05/25/2023 21:44:23</publishTime>
+      <publishTime>05/26/2023 23:22:31</publishTime>
     </File>
     <File Include="Web.config">
       <publishTime>05/25/2023 10:06:28</publishTime>

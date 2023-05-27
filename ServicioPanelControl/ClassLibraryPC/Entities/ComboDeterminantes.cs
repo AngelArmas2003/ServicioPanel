@@ -19,9 +19,11 @@ namespace ClassLibraryPC.Entities
         
         public bool Activo { get; set; }
 
+        public int Opcion { get; set; }
 
 
-        public List<ComboDeterminantes> CatalogoCombos(string combo)
+
+        public List<ComboDeterminantes> CatalogoCombos(ComboDeterminantes ent)
         {
             List<ComboDeterminantes> ListaCombosD = new List<ComboDeterminantes>();
 
@@ -32,7 +34,8 @@ namespace ClassLibraryPC.Entities
             {
                 SqlCommand cmd = new SqlCommand("Sp_ComboDeterminantes", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.Add("@Combo", SqlDbType.VarChar, 10).Value = combo;
+                cmd.Parameters.Add("@Combo", SqlDbType.VarChar, 10).Value = ent.NumeroCombo;
+                cmd.Parameters.Add("@Determinante", SqlDbType.VarChar, 10).Value = ent.Determinante;
 
                 try
                 {
@@ -74,6 +77,32 @@ namespace ClassLibraryPC.Entities
 
         }
 
-
+        public int ComboDeterminanteReg_Act(ComboDeterminantes entC)
+        {
+            int Inserta = 0;
+            try
+            {
+                Conexion.Conexion oconexion = new Conexion.Conexion();
+                SqlConnection oConecta = new SqlConnection(oconexion.conexion.ConnectionString);
+                // Ejecución de sentencias SQL
+                // ---------------------------
+                SqlDataAdapter da = new SqlDataAdapter();
+                SqlCommand cmd = new SqlCommand("SpComboDeterminante", oconexion.conexion);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add("@opc", SqlDbType.Int).Value = entC.Opcion;
+                cmd.Parameters.Add("@Id", SqlDbType.Int).Value = Convert.ToInt32(entC.id);
+                cmd.Parameters.Add("@NumeroCombo", SqlDbType.VarChar, 10).Value = entC.NumeroCombo;
+                cmd.Parameters.Add("@Determinante", SqlDbType.VarChar, 10).Value = entC.Determinante;
+                cmd.Parameters.Add("@Activo", SqlDbType.Bit).Value = entC.Activo;
+                cmd.Connection.Open();
+                Inserta = Convert.ToInt32(cmd.ExecuteScalar());
+                cmd.Connection.Close();
+                return Inserta;
+            }
+            catch (Exception e)
+            {
+                return Inserta;
+            }
+        }
     }
 }
