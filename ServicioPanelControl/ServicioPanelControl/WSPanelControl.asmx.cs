@@ -249,18 +249,30 @@ namespace ServicioPanelControl
 
 
         [WebMethod]
-        public List<Tarifas> TafiasDeterminantes(string dete)
+        public List<Tarifas> TafiasDeterminantes(Tarifas dete)
         {
-
             List<Tarifas> Listtarifadeterminantes = new List<Tarifas>();
-
-
             TarifasM otarifas = new TarifasM();
             Listtarifadeterminantes = otarifas.TarifasDeterminantes(dete);
-
-
             return Listtarifadeterminantes;
+        }
 
+        [WebMethod]
+        public string TarifaCveConsulta(Tarifas dete)
+        {
+            string result = "";
+            TarifasM otarifas = new TarifasM();
+            result = otarifas.TarifaCveConsulta(dete);
+            return result;
+        }
+
+        [WebMethod]
+        public int TarifaDetExceReg_Act(string obj)
+        {
+            int registro = 0;
+            TarifasM oComboD = new TarifasM();
+            registro = oComboD.TarifaDetExceReg_Act(obj);
+            return registro;
         }
 
         [WebMethod]
