@@ -37,6 +37,7 @@ namespace ClassLibraryPC.Entities
                 cmd.Parameters.Add("@Empresa", SqlDbType.VarChar, 300).Value = entDet.Nombre_Empresa;
                 cmd.Parameters.Add("@CveEstamto", SqlDbType.VarChar, 4).Value = entDet.CveEstamto;
                 cmd.Parameters.Add("@Estacionamiento", SqlDbType.VarChar, 300).Value = entDet.Estacionamiento;
+                cmd.Parameters.Add("@Determinante", SqlDbType.VarChar, 300).Value = entDet.Determinante;
                 cmd.CommandType = CommandType.StoredProcedure;
 
 
