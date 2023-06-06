@@ -371,7 +371,22 @@ namespace ServicioPanelControl
 
         }
 
+        [WebMethod]
+        public int MinGraciaAct(string obj)
+        {
+            int registro = 0;
+            MinGraciaM entM = new MinGraciaM();
+            registro = entM.MinGraciaAct(obj);
+            return registro;
+        }
 
-
+        [WebMethod]
+        public List<MinGracia> CatalogoMinGracia(MinGracia entC)
+        {
+            List<MinGracia> oListdeters = new List<MinGracia>();
+            MinGraciaM entM = new MinGraciaM();
+            oListdeters = entM.CatalogoCombo(entC);
+            return oListdeters;
+        }
     }
 }
